@@ -1,0 +1,8 @@
+-
+  name: Execute a git command
+  hosts: node1
+  become: yes
+  tasks:
+    -
+      name: Execute a git install command
+      command: apt install git
